@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap');
 
 :root {
-  /* Couleurs de ton design d'inspiration */
-  --bg-deep: #0a0b12;        /* Fond très sombre */
-  --bg-purple: #23124d;      /* Violet sombre */
+  --bg-deep: #0a0b12;        
+  --bg-purple: #23124d;      
   --text-main: #ffffff;
   --text-dim: #a1a1aa;
   --font-heading: 'Plus Jakarta Sans', sans-serif;
