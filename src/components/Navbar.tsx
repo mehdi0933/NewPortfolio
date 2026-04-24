@@ -15,7 +15,6 @@ export const Navbar = () => {
           className={styles.nav}
       >
         <div className={styles.logo}>
-          {/* Ton logo ici */}
         </div>
         <div className={styles.links}>
           {navLinks.map((link) => (
