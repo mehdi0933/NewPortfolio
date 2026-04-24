@@ -97,7 +97,7 @@ const Hero = () => {
             initial={{ x: -150, opacity: 0, rotate: -10 }}
             animate={{
               x: 0,
-              opacity: isMobile ? 0.2 : 0.7, // Plus discret sur mobile
+              opacity: isMobile ? 0.2 : 0.7, 
               rotate: 0,
               y: [0, -20, 0]
             }}
