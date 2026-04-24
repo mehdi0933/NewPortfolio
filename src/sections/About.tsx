@@ -40,7 +40,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
         >
           <h2 className="section-title">
-            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}>02.</span>
+            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}>.</span>
             Profil & Expertises
           </h2>
         </motion.div>
