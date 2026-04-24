@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
-import awsSchema from '../picture/aws-schema.png';';
+import awsSchema from '../picture/aws-schema.png';
 
 const Projects = () => {
   const projectList = [
