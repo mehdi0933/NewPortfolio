@@ -40,6 +40,36 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
+            style={{ textAlign: 'center', marginBottom: '120px' }}
+        >
+          <h2 style={{ fontSize: '2rem', marginBottom: '30px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}></span>
+            Expérience Professionnelle
+          </h2>
+          <div style={{
+            background: 'rgba(17, 34, 64, 0.4)',
+            padding: '40px',
+            borderRadius: '12px',
+            borderLeft: '4px solid var(--accent)',
+            maxWidth: '900px',
+            margin: '0 auto',
+            textAlign: 'left'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', marginBottom: '15px' }}>
+              <h3 style={{ color: 'var(--text-bright)', fontSize: '1.5rem' }}>Développeur Full Stack</h3>
+              <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)' }}>2 ans d'expérience</span>
+            </div>
+            <p style={{ color: 'var(--text-dim)', fontSize: '1.1rem', lineHeight: '1.7' }}>
+              Expertise de 2 ans dans le développement d'applications web robustes. Spécialisé sur la stack <strong>Java / Spring Boot</strong> pour le backend et <strong>React / TypeScript</strong> pour le frontend. Conception d'architectures modulaires, gestion de bases de données MySQL et déploiement d'infrastructures Cloud AWS.
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             style={{ textAlign: 'center', marginBottom: '100px' }}
         >
           <h2 className="section-title" style={{ justifyContent: 'center', display: 'flex', alignItems: 'center' }}>
@@ -51,10 +81,7 @@ const Projects = () => {
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
-
-          
           gap: '150px 40px',
-
           width: '100%',
           justifyContent: 'center'
         }}>
