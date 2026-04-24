@@ -43,7 +43,7 @@ const Projects = () => {
             style={{ textAlign: 'center', marginBottom: '120px' }}
         >
           <h2 style={{ fontSize: '2rem', marginBottom: '30px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}></span>
+            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}>02.</span>
             Expérience Professionnelle
           </h2>
           <div style={{
@@ -53,15 +53,51 @@ const Projects = () => {
             borderLeft: '4px solid var(--accent)',
             maxWidth: '900px',
             margin: '0 auto',
-            textAlign: 'left'
+            textAlign: 'left',
+            boxShadow: '0 10px 30px -15px rgba(2, 12, 27, 0.7)'
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', marginBottom: '15px' }}>
               <h3 style={{ color: 'var(--text-bright)', fontSize: '1.5rem' }}>Développeur Full Stack</h3>
               <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)' }}>2 ans d'expérience</span>
             </div>
-            <p style={{ color: 'var(--text-dim)', fontSize: '1.1rem', lineHeight: '1.7' }}>
-              Expertise de 2 ans dans le développement d'applications web robustes. Spécialisé sur la stack <strong>Java / Spring Boot</strong> pour le backend et <strong>React / TypeScript</strong> pour le frontend. Conception d'architectures modulaires, gestion de bases de données MySQL et déploiement d'infrastructures Cloud AWS.
-            </p>
+
+            <ul style={{ listStyle: 'none', padding: 0, color: 'var(--text-dim)' }}>
+              <li style={{ marginBottom: '25px', display: 'flex', alignItems: 'baseline' }}>
+                <span style={{ color: 'var(--accent)', marginRight: '10px' }}>▹</span>
+                <span>
+                  <strong>Développeur Full Stack (Expérience Pro 2 an) :</strong>
+                  <ul style={{ listStyle: 'none', padding: 0, color: 'var(--text-dim)' }}>
+  <li style={{ marginBottom: '15px', display: 'flex', alignItems: 'baseline' }}>
+    <span style={{ color: 'var(--accent)', marginRight: '10px' }}>▹</span>
+    <span>
+      Développement full stack <strong></strong> avec <strong>Java / Spring Boot et React</strong>,  la modularité et la maintenance du backend et du frontend.
+    </span>
+  </li>
+  <li style={{ display: 'flex', alignItems: 'baseline' }}>
+    <span style={{ color: 'var(--accent)', marginRight: '10px' }}>▹</span>
+    <span>
+      Expertise en développement d'interfaces <strong>React</strong> performantes, assurant une communication fluide avec les microservices via des API REST sécurisées.
+    </span>
+  </li>
+</ul>
+                </span>
+              </li>
+              <li style={{ marginBottom: '25px', display: 'flex', alignItems: 'baseline' }}>
+                <span style={{ color: 'var(--accent)', marginRight: '10px' }}>▹</span>
+                <span>
+                  <strong>Développeur Logiciel (Expérience Pro - 1 an) :</strong>
+                  Développement de solutions full stack complexes, de la modélisation de bases de données MySQL à l'intégration d'APIs REST.
+                  Focus sur la scalabilité, la sécurité (JWT/RBAC) et l'optimisation des performances applicatives.
+                </span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'baseline' }}>
+                <span style={{ color: 'var(--accent)', marginRight: '10px' }}>▹</span>
+                <span>
+                  <strong>Formation Développeur Web (Niveau Bac+2) - OpenClassrooms :</strong>
+                  Parcours certifiant axé sur les fondamentaux du développement, les algorithmes et l'application des méthodes agiles en projet.
+                </span>
+              </li>
+            </ul>
           </div>
         </motion.div>
 
@@ -73,7 +109,7 @@ const Projects = () => {
             style={{ textAlign: 'center', marginBottom: '100px' }}
         >
           <h2 className="section-title" style={{ justifyContent: 'center', display: 'flex', alignItems: 'center' }}>
-            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}></span>
+            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}>03.</span>
             Projets & Réalisations
           </h2>
         </motion.div>
