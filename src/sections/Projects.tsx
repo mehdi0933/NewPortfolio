@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
-import awsSchema from '../picture/Capture d’écran 2026-04-24 à 00.07.23.png';
+import awsSchema from '../picture/aws-schema.png";';
 
 const Projects = () => {
   const projectList = [
@@ -48,15 +48,11 @@ const Projects = () => {
           </h2>
         </motion.div>
 
-        {/* GRILLE DES PROJETS */}
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
 
-          /* ESPACEMENT :
-             100px gère la distance entre les lignes (haut et bas)
-             40px gère la distance entre les colonnes
-          */
+          
           gap: '150px 40px',
 
           width: '100%',
