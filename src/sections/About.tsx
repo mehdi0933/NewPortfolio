@@ -33,7 +33,6 @@ const About = () => {
   return (
       <section id="about" style={{ padding: '100px 5%', maxWidth: '1200px', margin: '0 auto' }}>
 
-        {/* TITRE DE LA SECTION */}
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +53,6 @@ const About = () => {
           alignItems: 'start'
         }}>
 
-          {/* COLONNE GAUCHE : TEXTE + BADGES */}
           <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -71,7 +69,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* LISTE DES COMPÉTENCES */}
             <div style={{ marginTop: '50px' }}>
               {techStack.map((group) => (
                   <div key={group.category} style={{ marginBottom: '35px' }}>
@@ -122,7 +119,6 @@ const About = () => {
             </div>
           </motion.div>
 
-          {/* COLONNE DROITE : CARTE VISUELLE STICKY */}
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -163,7 +159,6 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* CARROUSEL DES OUTILS FAVORIS (TOUT EN BAS) */}
         <ToolsCarousel />
 
       </section>
