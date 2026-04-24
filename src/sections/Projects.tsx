@@ -43,7 +43,7 @@ const Projects = () => {
             style={{ textAlign: 'center', marginBottom: '100px' }}
         >
           <h2 className="section-title" style={{ justifyContent: 'center', display: 'flex', alignItems: 'center' }}>
-            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}>03.</span>
+            <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '1.2rem', marginRight: '10px' }}></span>
             Projets & Réalisations
           </h2>
         </motion.div>
